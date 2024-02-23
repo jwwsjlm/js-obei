@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package obei;
+
+service Greeter {
+    rpc obeiHKIIUU9O618PPTHPM (jsStr) returns (ret) {}
+   
+}
+
+message jsStr {
+    string jscode = 1;
+    string cookie = 2;
+}
+
+message ret {
+    string message = 1;
+}
